@@ -88,7 +88,7 @@ function activateLightMode(){
 <li><h6 id="软件架构"><a href="#软件架构" class="headerlink" title="软件架构"></a>软件架构</h6><ul>
 <li>C/S  客户端-服务器</li>
 <li>B/S  浏览器-服务器</li>
-<li><img src="C:%5CUsers%5Cleiauk%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200928095440364.png" alt="image-20200928095440364"></li>
+<li><img src="/.com//C:%5CUsers%5Cleiauk%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200928095440364.png" alt="image-20200928095440364"></li>
 </ul>
 </li>
 <li><h6 id="资源分类"><a href="#资源分类" class="headerlink" title="资源分类"></a>资源分类</h6><ol>
@@ -170,14 +170,14 @@ function activateLightMode(){
 <ul>
 <li>原因：没有正确配置JAVA_HOME的环境变量，因为在.dat文件中使用的是JAVA_HOME文件路径。</li>
 </ul>
-<p><img src="C:%5CUsers%5Cleiauk%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200928102227198.png" alt="image-20200928102227198"></p>
+<p><img src="/.com//C:%5CUsers%5Cleiauk%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200928102227198.png" alt="image-20200928102227198"></p>
 </li>
 <li><p>启动报错</p>
 <ol>
 <li><p>原因：Tomcat端口号的被占用了。（默认的端口号是8080）</p>
 <ul>
 <li><p>通过端口开查看进程的命令：netstat -ano</p>
-<img src="C:\Users\leiauk\AppData\Roaming\Typora\typora-user-images\image-20200928104343532.png" alt="image-20200928104343532"  />
+<img src="/.com//Users\leiauk\AppData\Roaming\Typora\typora-user-images\image-20200928104343532.png" alt="image-20200928104343532">
 </li>
 </ul>
 </li>
@@ -186,7 +186,7 @@ function activateLightMode(){
 <li><p>直接杀死占用端口的进程：在任务管理器通过pid杀死进程，任务管理器-选项-显示列-pid.将占用端口的进程杀死。</p>
 </li>
 <li><p>修改端口号：conf/server.xml文件修改connector与redirectprot等的port端口号</p>
-<p><img src="C:%5CUsers%5Cleiauk%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200928104826385.png" alt="image-20200928104826385"></p>
+<p><img src="/.com//C:%5CUsers%5Cleiauk%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200928104826385.png" alt="image-20200928104826385"></p>
 <p>connector的port是默认的端口号。一般会将Tomcat的默认端口号修改为80；80 端口号是Http协议 的默认端口号，在访问的时候就不需要输入端口号。</p>
 </li>
 </ol>
@@ -221,13 +221,13 @@ function activateLightMode(){
 <ol>
 <li><p>当有多个文件的时候，将html文件直接打包为zip文件，然后修改zip 的后缀为war即可完成多文件的部署。（最好是用专门的war文件打包工具）</p>
 <ul>
-<li><img src="C:%5CUsers%5Cleiauk%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200928110009116.png" alt="image-20200928110009116"></li>
+<li><img src="/.com//C:%5CUsers%5Cleiauk%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200928110009116.png" alt="image-20200928110009116"></li>
 <li>浏览器的解析器会自动的解压缩，并解析。</li>
 </ul>
 </li>
 <li><p>配置conf/server.xml文件</p>
 <ol>
-<li><p>在<Host>标签体中配置</p>
+<li><p>在<Host>标签体中配置</Host></p>
 </li>
 <li><pre><code>&lt;context doBase=&quot;D:hello&quot; path=&quot;/hehe&quot;/&gt;</code></pre></li>
 </ol>
@@ -251,7 +251,7 @@ function activateLightMode(){
         - 每次部署不需要重启服务器</code></pre><ol start="5">
 <li><p>Tomcat的目录</p>
 <ul>
-<li><img src="C:\Users\leiauk\AppData\Roaming\Typora\typora-user-images\image-20200928100755786.png" alt="image-20200928100755786" style="zoom:200%;" />    </li>
+<li><img src="/.com//Users\leiauk\AppData\Roaming\Typora\typora-user-images\image-20200928100755786.png" alt="image-20200928100755786" style="zoom:200%;">    </li>
 <li>bin 可执行文件</li>
 <li>conf 配置文件</li>
 </ul>
